@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Yourself</title>
+</head>
+<body>
+    <!-- Header -->
+     <header>
+        <h1 class="heading">Advance Registration Form</h1>
+     </header>
+     <!-- Main -->
+      <main>
+        <!-- Form Section -->
+         <section id="form" class="section">
+            <h2 class="sub-heading">Registration Form</h2>
+            <form id="registration-form" action="submit" method="get">
+                <!-- Personal Information -->
+                 <fieldset class="fields">
+                    <legend class="feild-legend">Perosnal Details</legend>
+                    <label for="fname">Full Name: </label>
+                    <input type="text" id="fname" placeholder="enter you name" required><br>
+                    <label for="uname">Username: </label>
+                    <input type="text" id="uname" placeholder="enter username" required><br>
+                    <label for="email">Email Address: </label>
+                    <input type="email" id="email" placeholder="enter your email" required><br>
+                    <label for="pass">Password: </label>
+                    <input type="password" id="pass" pattern=".{8,}" 
+                    title="atleast 8 characters" placeholder="enter password"><br>
+                    <label for="dob">Date of Birth: </label>
+                    <input type="date" id="dob" placeholder="enter you date of birth" required><br>
+
+                 </fieldset>
+                 <!-- Preferences -->
+                  <fieldset class="fields">
+                    <legend class="feild-legend">Profile Preferences</legend>
+                    <span class="manual-label">Gender: </span>
+                    <input type="radio" id="male" name="gender" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" required>
+                    <label for="female">Female</label>
+                    <input type="radio" id="notsay" name="gender" required>
+                    <label for="notsay">Prefer not to say</label>
+                    <br>
+                    <span class="manual-label">Interests: </span>
+                    <input type="checkbox" id="read" >
+                    <label for="read">Reading</label>
+                    <input type="checkbox" id="travel" >
+                    <label for="travel">Traveling</label>
+                    <input type="checkbox" id="photo" >
+                    <label for="photo">Photography</label>
+                    <input type="checkbox" id="code">
+                    <label for="code">Coding</label>
+                    <input type="checkbox" id="fit" >
+                    <label for="fit">Fitness</label>
+                  </fieldset>
+                  <!-- Others -->
+                   <fieldset class="fields">
+                    <legend class="feild-legend">Others</legend>
+                    <label for="pfp">Profile Picture: </label>
+                    <input type="file" id="pfp" required><br>
+                    <label for="color">Favorite Color: </label>
+                    <input type="color" id="color" value="#ff0000" required><br>
+                    <labell for="skill">Skill Level: </label>
+                    <input type="range" id="skill" min="0" max="10" value="5" required>   
+                   </fieldset>
+                   <button type="submit">Register Now</button>
+            </form>
+         </section>
+      </main>
+      <!-- Footer -->
+       <footer>
+       </footer>
+</body>
+</html>
