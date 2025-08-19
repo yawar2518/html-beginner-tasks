@@ -13,16 +13,16 @@ All practice tasks are neatly organized into two folders:
 html-beginner-tasks/
 │
 ├── Basic Tasks/
-│   ├── basic.html
-│   ├── blogpage.html
-│   ├── intermediate.html
-│   ├── portfolio.html
-│   ├── weeklyplanner.html
-│   └── (other small practice files & images)
+│ ├── basic.html
+│ ├── blogpage.html
+│ ├── intermediate.html
+│ ├── portfolio.html
+│ ├── weeklyplanner.html
+│ └── (other small practice files & images)
 │
 ├── Advance Tasks/
-│   ├── advanceRegistrationForm.html
-│   ├── interactiveResume.html
-│   └── (future advanced tasks will be added here)
+│ ├── advanceRegistrationForm.html
+│ ├── interactiveResume.html
+│ └── (future advanced tasks will be added here)
 │
-└── README.md   ← You are here
+└── README.md ← You are here
