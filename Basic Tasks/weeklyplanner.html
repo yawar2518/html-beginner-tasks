@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Planner</title>
+    <style>
+        #table table,thead,th,tr,td{
+            background-color: aqua;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1 id="main-heading">My Weekly Planner</h1>
+    </header>
+    <!-- Main -->
+     <main>
+        <!-- Table Section -->
+        <section id="table">
+            <table>
+                <caption><strong>Weekly Planning</strong></caption>
+                <thead>
+                    <th>Time/Day</th>
+                    <th>Moday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </thead>
+                <tr>
+                    <td class="row-heading">Morning</td>
+                    <td>Gym Workout</td>
+                    <td>Work Project</td>
+                    <td>Gym Workout</td>
+                    <td>Work Project</td>
+                    <td>Gym Workout</td>
+                    <td rowspan="2">Family Trip</td>
+                    <td rowspan="3">Rest Day</td>
+                </tr>
+                <tr>
+                    <td class="row-heading">Afternoon</td>
+                    <td>Team Meeting</td>
+                    <td colspan="2">Workshop</td>
+                    <td colspan="2">Training Seminar</td>
+                </tr>
+                <tr>
+                    <td class="row-heading">Evening</td>
+                    <td>Dinner with Friends</td>
+                    <td>Study Time</td>
+                    <td>Movie Night</td>
+                    <td>Study Time</td>
+                    <td>Game night</td>
+                    <td>Barbecue with Friends</td>
+                </tr>
+                <tfoot>
+                    <td class="row-heading">To Do list</td>
+                    <td colspan="7">Buy groceries, Finish project report, Call plumber, Plan birthday gift for friend, laundry.
+                    </td>
+                </tfoot>
+            </table>
+        </section>
+     </main>
+    </body>
+</html>
